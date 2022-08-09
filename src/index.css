@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+code {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* start Navbar */
+.navbar .navbar-nav .nav-item .nav-link {
+  font-size: 17px;
+}
+
+.navbar-brand {
+  letter-spacing: 3px;
+}
+@media (max-width:991px) {
+  .btn-outline-primary
+  {
+    margin-bottom: 4px;
+      width: 200px;
+      
+  }
+  .h{
+    margin-left: .5rem !important;
+    width: 200px;
+  }
+}
+.navbar-toggler:focus{
+box-shadow: none;
+}
+.navbar-expand{
+  color: red !important;
+}
+
+.navbar-toggler[aria-expanded="true"] {
+  border-color: blue;
+}
+
+.nav-link.active{
+  color: #0D6EFD !important;
+}
+
+
+/* end Navbar */
