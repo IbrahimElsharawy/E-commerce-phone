@@ -7,7 +7,7 @@ import Signup from "./buttons/Signup";
 const Header = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg ">
+      <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid py-2">
           <button
             className="navbar-toggler"

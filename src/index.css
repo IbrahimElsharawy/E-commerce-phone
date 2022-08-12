@@ -38,8 +38,44 @@ box-shadow: none;
 }
 
 .nav-link.active{
-  color: #0D6EFD !important;
+  color: black !important;
 }
 
 
 /* end Navbar */
+
+/* start slider */
+.carousel-item img{
+  height: 650px;
+  width: 100%;
+  background-size: cover;
+}
+@media (max-width:767px) {
+.carousel-item img{
+  height: 500px;
+}
+}
+
+
+/* end slider */
+
+/* start product */
+.card{
+  transition: all .5s ease;
+}
+.card:hover{
+  transform: scale(1.1);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, .5) ;
+}
+
+
+
+.card img{
+  width: 100%;
+  background-size: cover;
+  height: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* end product */
