@@ -1,5 +1,5 @@
 import React from "react";
-
+import Product from './Product'
 const Home = () => {
   return (
     <>
@@ -32,13 +32,13 @@ const Home = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="/assets/home1.avif" className="d-block w-100" alt="Iphone" />
+            <img src="/assets/home3.avif" className="d-block w-100" alt="Iphone" />
           </div>
           <div className="carousel-item">
             <img src="/assets/home2.avif" className="d-block w-100" alt="Iphone" />
           </div>
           <div className="carousel-item">
-            <img src="/assets/home3.avif" className="d-block w-100" alt="Iphone"  />
+            <img src="/assets/home1.avif" className="d-block w-100" alt="Iphone"  />
           </div>
         </div>
         <button
@@ -60,7 +60,10 @@ const Home = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+
+      <Product />
     </>
+    
   );
 };
 
