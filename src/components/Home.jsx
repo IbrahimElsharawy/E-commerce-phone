@@ -6,7 +6,8 @@ const Home = () => {
       <div
         id="carsoul"
         className="carousel slide"
-        data-bs-ride="true"
+        data-bs-ride="carousel"
+
       >
         <div className="carousel-indicators">
           <button
@@ -31,10 +32,10 @@ const Home = () => {
           ></button>
         </div>
         <div className="carousel-inner">
-          <div className="carousel-item active">
+          <div className="carousel-item active " data-bs-interval="1000">
             <img src="/assets/home3.avif" className="d-block w-100" alt="Iphone" />
           </div>
-          <div className="carousel-item">
+          <div className="carousel-item" data-bs-interval="2000">
             <img src="/assets/home2.avif" className="d-block w-100" alt="Iphone" />
           </div>
           <div className="carousel-item">
