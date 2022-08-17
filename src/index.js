@@ -5,11 +5,16 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle'
 import { BrowserRouter } from 'react-router-dom';
 import 'font-awesome/css/font-awesome.min.css'
-import './index.css'
+import './index.css';
+import { Provider } from 'react-redux';
+import store from './redux/store';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
-<App />
+        <Provider store={store}>
+            <App  />
+        </Provider>
+
     </BrowserRouter>
    
 ); 
